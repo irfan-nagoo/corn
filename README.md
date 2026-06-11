@@ -1,2 +1,1 @@
-
-A Sample Python project.
+# corn
