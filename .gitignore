@@ -40,7 +40,7 @@ nb-configuration.xml
 __pycache__/
 build/
 model
-data
+
 
 # NodeJS
 node_modules/
