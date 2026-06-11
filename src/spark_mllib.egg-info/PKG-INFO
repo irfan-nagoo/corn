@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: spark-mllib
+Version: 2026.0.0
+Summary: Spark MLlib project
+Author-email: Irfan Nagoo <abs@example.com>
+Maintainer-email: Irfan Nagoo <abc@example.com>
+License-Expression: MIT
+Keywords: sprak,mllib
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pyspark
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+
+A Sample Python project.

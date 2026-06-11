@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spark-mllib"
+version = "2026.0.0"
+dependencies = [
+  "pyspark",
+  "numpy",
+  "pandas"
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "Irfan Nagoo", email = "abs@example.com"}
+]
+maintainers = [
+  {name = "Irfan Nagoo", email = "abc@example.com"}
+]
+description = "Spark MLlib project"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICEN[CS]E.*"]
+keywords = ["sprak", "mllib"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
