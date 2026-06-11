@@ -5,7 +5,7 @@ spark = SparkSession.builder.appName("WordCound").getOrCreate()
 logData = spark.read.text(logFile).cache()
 
 
-total_count = logData.filter(logData.value.contains("Sample")).count()
+total_count = logData.filter(logData.value.contains("corn")).count()
 
 print(f"The total count is {total_count}")
 
